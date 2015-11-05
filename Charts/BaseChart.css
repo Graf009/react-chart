@@ -1,0 +1,37 @@
+@use postcss-nested;
+
+.chart {
+  .axis {
+    path,
+    line {
+      fill: none;
+      stroke: #000;
+    }
+
+    path {
+      stroke-width: 1.5px;
+    }
+
+    line {
+      stroke-dasharray: 2, 3;
+      stroke-width: 0.5px;
+    }
+
+    text {
+      fill: #000;
+      font-size: 11px;
+      font-weight: bold;
+      stroke: none;
+    }
+  }
+
+  .tooltip {
+    background-color: #000;
+    border: 1px solid grey;
+    border-radius: 3px;
+    color: #fff;
+    padding: 8px 0;
+    text-align: center;
+    width: 150px;
+  }
+}

@@ -1,0 +1,12 @@
+@use postcss-nested;
+
+.tableChart {
+  tbody tr,
+  td {
+    height: 35px;
+  }
+
+  td {
+    padding-top: 8px;
+  }
+}

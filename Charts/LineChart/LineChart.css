@@ -1,0 +1,26 @@
+@use postcss-nested;
+
+.lineChart {
+  .line {
+    fill: none;
+    stroke-width: 2.5px;
+  }
+
+  .dot {
+    fill: white;
+    stroke-width: 2px;
+  }
+
+  .brush {
+    .extent {
+      fill-opacity: 0.125;
+      shape-rendering: crispEdges;
+      stroke: #666;
+    }
+
+    .resize path {
+      fill: #eee;
+      stroke: #666;
+    }
+  }
+}
